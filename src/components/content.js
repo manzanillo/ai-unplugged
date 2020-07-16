@@ -8,7 +8,7 @@ const Content = () => (
   <div style={{ padding: "0rem 1rem", textAlign: "center" }}>
     <SectionHeader
       title="Activities"
-      description="Check out the download material for the individual activities below."
+      description="Check out the download material for all activities below."
     />
     <content
       style={{
@@ -20,10 +20,14 @@ const Content = () => (
     >
       <div>
         <h3>Activity 1</h3>
-        <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
-        </p>
+        <ul style={{ color: COLORS.gray, textAlign: "left" }}>
+          <li>
+            <a href="activity1.pdf">Monkey cards (for print)</a>
+          </li>
+          <li>
+            <a href="activity1.pptx">Monkey cards (presentation)</a>
+          </li>
+        </ul>
       </div>
     </content>
 
@@ -37,10 +41,11 @@ const Content = () => (
     >
       <div>
         <h3>Activity 2</h3>
-        <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
-        </p>
+        <ul style={{ color: COLORS.gray, textAlign: "left" }}>
+          <li>
+            <a href="activity2.pdf">Image cards</a>
+          </li>
+        </ul>
       </div>
     </content>
     <content
@@ -53,10 +58,25 @@ const Content = () => (
     >
       <div>
         <h3>Activity 3</h3>
-        <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
-        </p>
+        <ul style={{ color: COLORS.gray, textAlign: "left" }}>
+          <li>
+            <a href="activity3.pdf">Board game</a>
+          </li>
+          <li>
+            <a href="activity3-german.pdf">Computer rules (German)</a>
+          </li>
+          <li>
+            <a href="activity3-english.pdf">Computer rules (English)</a>
+          </li>
+          <li>
+            <a href="activity3-korean.pdf">Computer rules (Korean)</a>
+          </li>
+          <li>
+            <a href="https://www.stefanseegerer.de/schlag-das-krokodil/">
+              Online version (German)
+            </a>
+          </li>
+        </ul>
       </div>
     </content>
     <content
@@ -69,10 +89,20 @@ const Content = () => (
     >
       <div>
         <h3>Activity 4</h3>
-        <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
-        </p>
+        <ul style={{ color: COLORS.gray, textAlign: "left" }}>
+          <li>
+            <a href="activity3.pdf">Board game</a>
+          </li>
+          <li>
+            <a href="activity4-german.pdf">Computer rules (German)</a>
+          </li>
+          <li>
+            <a href="activity4-english.pdf">Computer rules (English)</a>
+          </li>
+          <li>
+            <a href="activity4-korean.pdf">Computer rules (Korean)</a>
+          </li>
+        </ul>
       </div>
     </content>
     <content
@@ -85,10 +115,16 @@ const Content = () => (
     >
       <div>
         <h3>Activity 5</h3>
-        <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
-        </p>
+        <ul style={{ color: COLORS.gray, textAlign: "left" }}>
+          <li>
+            <a href="activity5-german.pdf">Questions for Computer (German)</a>
+          </li>
+          <li>
+            <a href="https://classic.csunplugged.org/wp-content/uploads/2014/12/unplugged-20-the_turing_test_0.pdf">
+              Questions for Computer (English)
+            </a>
+          </li>
+        </ul>
       </div>
     </content>
   </div>

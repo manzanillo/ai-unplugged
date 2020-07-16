@@ -30,7 +30,7 @@ const Footer = () => (
       <div style={{ color: COLORS.gray }}>
         Made with <span style={{ color: "#e25555" }}>&#9829;</span>
         {` `}
-        by Stefan Seegerer
+        by Stefan Seegerer and Annabel Lindner
       </div>
     </div>
   </footer>

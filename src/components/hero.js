@@ -28,7 +28,8 @@ const Header = ({ siteTitle }) => (
     <Paper>
       <h1 style={{ textAlign: "center" }}>AI Unplugged</h1>
       <p style={{ textAlign: "center" }}>
-        Activities and teaching material on artificial intelligence
+        Activities and teaching material on artificial intelligence. Download
+        the brochure in German, English or Korean.
       </p>
       <div style={{ textAlign: "center" }}>
         <button
