@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Landing Page PaperCSS`,
-    description: `A barebone landing page starter with PaperCSS.`,
+    title: `AI Unplugged`,
+    description: `Activities and teaching material on artificial intelligence.`,
     author: `@gillkyle, @stefanseegerer`,
-    siteUrl: `https://www.stefanseegerer.de/gatsby-starter-paper-css-landing-page`,
+    siteUrl: `https://aiunplgged.org`,
   },
   pathPrefix: "/gatsby-starter-paper-css-landing-page",
   plugins: [

@@ -30,7 +30,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `AI Unplugged`,
 }
 
 export default Header

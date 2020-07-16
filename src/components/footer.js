@@ -1,9 +1,8 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 import { COLORS } from "../styles/constants"
 
-const Footer = ({ siteTitle }) => (
+const Footer = () => (
   <footer
     style={{
       padding: "1rem",
@@ -23,26 +22,18 @@ const Footer = ({ siteTitle }) => (
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
         <a
           style={{ textDecoration: "none" }}
-          href="https://github.com/manzanillo/gatsby-starter-paper-css-landing-page"
+          href="mailto:aiunplugged@digi4all.de"
         >
           Contact Us
         </a>
       </div>
       <div style={{ color: COLORS.gray }}>
-        © {new Date().getFullYear()}
+        Made with <span style={{ color: "#e25555" }}>&#9829;</span>
         {` `}
-        {siteTitle}
+        by Stefan Seegerer
       </div>
     </div>
   </footer>
 )
-
-Footer.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Footer.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Footer

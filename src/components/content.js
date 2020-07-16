@@ -5,10 +5,10 @@ import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
 
 const Content = () => (
-  <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
+  <div style={{ padding: "0rem 1rem", textAlign: "center" }}>
     <SectionHeader
-      title="Minimal Features"
-      description="Don't spend time ripping out unneeded plugins and bloat."
+      title="Activities"
+      description="Check out the download material for the individual activities below."
     />
     <content
       style={{
@@ -19,14 +19,76 @@ const Content = () => (
       }}
     >
       <div>
-        <h3>What you need to Start</h3>
+        <h3>Activity 1</h3>
         <p style={{ color: COLORS.gray }}>
           Includes plugins for analytics, building sitemaps, and optimizing
           images
         </p>
       </div>
+    </content>
+
+    <content
+      style={{
+        display: "grid",
+        alignItems: "left",
+        justifyContent: "center",
+        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
+      }}
+    >
       <div>
-        <img src={feature} alt="a blank card floating over colorful graphics" />
+        <h3>Activity 2</h3>
+        <p style={{ color: COLORS.gray }}>
+          Includes plugins for analytics, building sitemaps, and optimizing
+          images
+        </p>
+      </div>
+    </content>
+    <content
+      style={{
+        display: "grid",
+        alignItems: "left",
+        justifyContent: "center",
+        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
+      }}
+    >
+      <div>
+        <h3>Activity 3</h3>
+        <p style={{ color: COLORS.gray }}>
+          Includes plugins for analytics, building sitemaps, and optimizing
+          images
+        </p>
+      </div>
+    </content>
+    <content
+      style={{
+        display: "grid",
+        alignItems: "left",
+        justifyContent: "center",
+        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
+      }}
+    >
+      <div>
+        <h3>Activity 4</h3>
+        <p style={{ color: COLORS.gray }}>
+          Includes plugins for analytics, building sitemaps, and optimizing
+          images
+        </p>
+      </div>
+    </content>
+    <content
+      style={{
+        display: "grid",
+        alignItems: "left",
+        justifyContent: "center",
+        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
+      }}
+    >
+      <div>
+        <h3>Activity 5</h3>
+        <p style={{ color: COLORS.gray }}>
+          Includes plugins for analytics, building sitemaps, and optimizing
+          images
+        </p>
       </div>
     </content>
   </div>

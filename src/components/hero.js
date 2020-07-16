@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import headerImage from "../images/header.png"
-import mainImage from "../images/main.webp"
+import mainImage from "../images/main.jpg"
 import Paper from "../components/paper"
 
 const Header = ({ siteTitle }) => (
@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
       display: "flex",
       alignItems: "center",
       flexDirection: "column",
-      padding: "4rem 1rem",
+      padding: "6rem 1rem",
     }}
   >
     <div
@@ -26,13 +26,32 @@ const Header = ({ siteTitle }) => (
       }}
     />
     <Paper>
-      <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
+      <h1 style={{ textAlign: "center" }}>AI Unplugged</h1>
       <p style={{ textAlign: "center" }}>
-        This landing page looks great on all devices and is minimal in design.
-        Add what you want and deploy.
+        Activities and teaching material on artificial intelligence
       </p>
       <div style={{ textAlign: "center" }}>
-        <button>Call to action</button>
+        <button
+          style={{ margin: "1em" }}
+          onClick={() =>
+            (window.location.href =
+              "https://computingeducation.de/proj-ai-unplugged/")
+          }
+        >
+          German
+        </button>
+        <button
+          style={{ margin: "1em" }}
+          onClick={() => (window.location.href = "english.pdf")}
+        >
+          English
+        </button>
+        <button
+          style={{ margin: "1em" }}
+          onClick={() => (window.location.href = "korean.pdf")}
+        >
+          Korean
+        </button>
       </div>
       <div style={{ margin: 60, position: "relative" }}>
         <img src={mainImage} alt="Some content" />
