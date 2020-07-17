@@ -126,6 +126,19 @@ const Content = () => (
         </ul>
       </div>
     </content>
+
+    <p
+      style={{
+        color: COLORS.gray,
+        textAlign: "left",
+        marginTop: "2em",
+      }}
+    >
+      <i>
+        Korean translation: Shinok Kang, Wonil Kim, Injoo Kim, Horim Park,
+        Sukjae Yang, Doyoung Lee and Jinsook Lim
+      </i>
+    </p>
   </div>
 )
 
