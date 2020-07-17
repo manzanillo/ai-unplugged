@@ -1,0 +1,11 @@
+#paper {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media (min-width: 768px) {
+  #paper {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+}

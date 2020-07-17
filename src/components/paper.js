@@ -1,13 +1,8 @@
 import React from "react"
+import "../styles/paper.css"
 
 const Paper = ({ children }) => (
-  <div
-    className="row"
-    style={{
-      paddingLeft: window.innerWidth > 768 ? "8em" : "1em",
-      paddingRight: window.innerWidth > 768 ? "8em" : "1em",
-    }}
-  >
+  <div className="row" id="paper">
     <div className="paper">{children}</div>
   </div>
 )
