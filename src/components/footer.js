@@ -22,7 +22,7 @@ const Footer = () => (
       <div style={{ color: COLORS.blue, fontWeight: 700 }}>
         <a
           style={{ textDecoration: "none" }}
-          href="mailto:aiunplugged@digi4all.de"
+          href="mailto:stefan.seegerer@fau.de"
         >
           Contact Us
         </a>
