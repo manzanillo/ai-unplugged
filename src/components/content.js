@@ -130,7 +130,7 @@ const Content = () => (
     <p
       style={{
         color: COLORS.gray,
-        textAlign: "left",
+        textAlign: "center",
         marginTop: "2em",
       }}
     >
