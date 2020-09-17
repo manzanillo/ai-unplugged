@@ -56,8 +56,8 @@
 /* Large screens ----------- */
 @media only screen and (min-width: 1824px) {
   #paper {
-    padding-left: 8em;
-    padding-right: 8em;
+    padding-left: 18em;
+    padding-right: 18em;
   }
   /* Styles */
 }
