@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
           style={{ margin: "1em" }}
           onClick={() =>
             (window.location.href =
-              "https://computingeducation.de/proj-ai-unplugged/")
+              "german.pdf")
           }
         >
           German
