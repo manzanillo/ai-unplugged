@@ -76,11 +76,11 @@ const Content = () => (
             </a>
           </li>
           <li>
-            Figures for 3D-Printing:
+            3D figures:
             <a href="https://www.tinkercad.com/things/8FYM8kdDZwF">
                Monkey
             </a>
-            , 
+            ,{" "}
             <a href="https://www.tinkercad.com/things/a4BmRyLw6bQ">
                Crocodile
             </a>
