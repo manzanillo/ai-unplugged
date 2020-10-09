@@ -75,6 +75,16 @@ const Content = () => (
               Online version (German)
             </a>
           </li>
+          <li>
+            Figures for 3D-Printing:
+            <a href="https://www.tinkercad.com/things/8FYM8kdDZwF">
+               Monkey
+            </a>
+            , 
+            <a href="https://www.tinkercad.com/things/a4BmRyLw6bQ">
+               Crocodile
+            </a>
+          </li>
         </ul>
       </div>
     </content>
