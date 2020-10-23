@@ -76,7 +76,7 @@ const Content = () => (
             </a>
           </li>
           <li>
-            3D figures:
+            3D figures:{" "}
             <a href="https://www.tinkercad.com/things/8FYM8kdDZwF">
                Monkey
             </a>
@@ -148,7 +148,7 @@ const Content = () => (
         Korean translation: Shinok Kang, Wonil Kim, Injoo Kim, Horim Park,
         Sukjae Yang, Doyoung Lee and Jinsook Lim
       </i>
-      <br/
+      <br/>
       <i>If you are interested in translating the brochure into your language, just email us at <span style="text-decoration: underline;">aiunplugged(at)digi4all.de</span>. 
 
 </i>
