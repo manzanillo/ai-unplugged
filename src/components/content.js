@@ -148,10 +148,17 @@ const Content = () => (
         Korean translation: Shinok Kang, Wonil Kim, Injoo Kim, Horim Park,
         Sukjae Yang, Doyoung Lee and Jinsook Lim
       </i>
-      <br/>
-      <i>If you are interested in translating the brochure into your language, just email us at <span style="text-decoration: underline;">aiunplugged(at)digi4all.de</span>. 
-
-</i>
+    </p>
+    <p
+      style={{
+        color: COLORS.gray,
+        textAlign: "center",
+        marginTop: "2em",
+      }}
+    >
+      <i>
+         If you are interested in translating the brochure into your language, just email us at aiunplugged(at)digi4all.de. 
+      </i>
     </p>
   </div>
 )
