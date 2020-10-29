@@ -157,7 +157,7 @@ const Content = () => (
       }}
     >
       <i>
-         If you are interested in translating the brochure into your language, just email us at aiunplugged(at)digi4all.de. 
+         If you are interested in translating the brochure into your language, just email us at hi(at)aiunplugged.org. 
       </i>
     </p>
   </div>
