@@ -135,6 +135,30 @@ const Content = () => (
           </li>
         </ul>
       </div>
+      <div>
+        <h3>Further inspiration</h3>
+        <ul style={{ color: COLORS.gray, textAlign: "left" }}>
+          <li>
+            <a href="https://www.teachermagazine.com.au/articles/ai-classroom-activity-facial-recognition"
+               rel="noopener"
+               target="_blank">Facial Recognition (external link)</a>
+          </li>
+          <li>
+            <a href="https://teachinglondoncomputing.org/resources/inspiring-unplugged-classroom-activities/the-brain-in-a-bag-activity/"
+               rel="noopener"
+               target="_blank">
+                  Brain-in-a-Bag (external link)
+            </a>
+          </li>
+          <li>
+            <a href="https://computingeducation.de/proj-snaip-B/"
+               rel="noopener"
+               target="_blank">
+                 Unsupervised Learning (external link, German)
+            </a>
+          </li>
+        </ul>
+      </div>
     </content>
 
     <p
