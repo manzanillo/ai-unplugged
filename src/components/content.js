@@ -135,6 +135,15 @@ const Content = () => (
           </li>
         </ul>
       </div>
+    </content>
+    <content
+      style={{
+        display: "grid",
+        alignItems: "left",
+        justifyContent: "center",
+        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
+      }}
+    >
       <div>
         <h3>Further inspiration</h3>
         <ul style={{ color: COLORS.gray, textAlign: "left" }}>
