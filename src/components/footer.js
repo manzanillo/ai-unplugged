@@ -32,6 +32,7 @@ const Footer = () => (
         {` `}
         by Stefan Seegerer and Annabel Lindner
       </div>
+      <img src="https://vg08.met.vgwort.de/na/6f46d9aa700441e99585aac5902baee2" width="1" height="1" alt="">
     </div>
   </footer>
 )
