@@ -72,18 +72,18 @@ const Content = () => (
           </li>
           <li>
             <a href="https://www.stefanseegerer.de/schlag-das-krokodil/">
-              Online version (German)
+              Online version
             </a>
           </li>
           <li>
-            3D figures:{" "}
-            <a href="https://www.tinkercad.com/things/8FYM8kdDZwF">
-               Monkey
-            </a>
+            Figures for 3D printer:{" "}
+            Monkey{" "}(<a href="https://www.tinkercad.com/things/8FYM8kdDZwF">2D</a>,
+                        {" "}
+                        <a href="https://www.tinkercad.com/things/8EuT24CJEyX-3d-monkey-for-ai-unplugged">3D</a>
+                        )
             ,{" "}
-            <a href="https://www.tinkercad.com/things/a4BmRyLw6bQ">
-               Crocodile
-            </a>
+               Crocodile (<a href="https://www.tinkercad.com/things/a4BmRyLw6bQ">2D</a>,{" "} 
+                          <a href="https://www.tinkercad.com/things/kBmGgxcegq0-3d-croco-for-ai-unplugged">3D</a>)
           </li>
         </ul>
       </div>
