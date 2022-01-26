@@ -26,6 +26,10 @@ const Content = () => (
           <li>
             <a href="activity1.pptx">Monkey cards (presentation)</a>
           </li>
+          <li>
+            <a href="activity1_cow_horse.pdf">Alternative face cards (cow + horse)</a>
+          Thanks to Aman Yadav and CT4EDU for providing an alternative version for the monkey cards!
+          </li>
         </ul>
       </div>
     </content>
