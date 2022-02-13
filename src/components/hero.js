@@ -34,10 +34,7 @@ const Header = ({ siteTitle }) => (
       <div style={{ textAlign: "center" }}>
         <button
           style={{ margin: "1em" }}
-          onClick={() =>
-            (window.location.href =
-              "german.pdf")
-          }
+          onClick={() => (window.location.href = "german.pdf")}
         >
           German
         </button>
@@ -52,6 +49,12 @@ const Header = ({ siteTitle }) => (
           onClick={() => (window.location.href = "korean.pdf")}
         >
           Korean
+        </button>
+        <button
+          style={{ margin: "1em" }}
+          onClick={() => (window.location.href = "portuguese.pdf")}
+        >
+          Portuguese
         </button>
       </div>
       <div style={{ margin: 60, position: "relative" }}>
