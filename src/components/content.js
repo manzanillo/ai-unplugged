@@ -27,8 +27,11 @@ const Content = () => (
             <a href="activity1.pptx">Monkey cards (presentation)</a>
           </li>
           <li>
-            <a href="activity1_cow_horse.pdf">Alternative face cards (cow + horse)</a>
-          Thanks to Aman Yadav and CT4EDU for providing an alternative version for the monkey cards!
+            <a href="activity1_cow_horse.pdf">
+              Alternative face cards (cow + horse)
+            </a>
+            Thanks to Aman Yadav and CT4EDU for providing an alternative version
+            for the monkey cards!
           </li>
         </ul>
       </div>
@@ -75,19 +78,25 @@ const Content = () => (
             <a href="activity3-korean.pdf">Computer rules (Korean)</a>
           </li>
           <li>
+            <a href="activity3-portuguese.pdf">Computer rules (Portuguese)</a>
+          </li>
+          <li>
             <a href="https://www.stefanseegerer.de/schlag-das-krokodil/">
               Online version
             </a>
           </li>
           <li>
-            Figures for 3D printer:{" "}
-            Monkey{" "}(<a href="https://www.tinkercad.com/things/8FYM8kdDZwF">2D</a>,
-                        {" "}
-                        <a href="https://www.tinkercad.com/things/8EuT24CJEyX-3d-monkey-for-ai-unplugged">3D</a>
-                        )
-            ,{" "}
-               Crocodile (<a href="https://www.tinkercad.com/things/a4BmRyLw6bQ">2D</a>,{" "} 
-                          <a href="https://www.tinkercad.com/things/kBmGgxcegq0-3d-croco-for-ai-unplugged">3D</a>)
+            Figures for 3D printer: Monkey (
+            <a href="https://www.tinkercad.com/things/8FYM8kdDZwF">2D</a>,{" "}
+            <a href="https://www.tinkercad.com/things/8EuT24CJEyX-3d-monkey-for-ai-unplugged">
+              3D
+            </a>
+            ) , Crocodile (
+            <a href="https://www.tinkercad.com/things/a4BmRyLw6bQ">2D</a>,{" "}
+            <a href="https://www.tinkercad.com/things/kBmGgxcegq0-3d-croco-for-ai-unplugged">
+              3D
+            </a>
+            )
           </li>
         </ul>
       </div>
@@ -115,6 +124,9 @@ const Content = () => (
           <li>
             <a href="activity4-korean.pdf">Computer rules (Korean)</a>
           </li>
+          <li>
+            <a href="activity4-portuguese.pdf">Computer rules (Portuguese)</a>
+          </li>
         </ul>
       </div>
     </content>
@@ -137,6 +149,11 @@ const Content = () => (
               Questions for Computer (English)
             </a>
           </li>
+          <li>
+            <a href="activity5-portuguese.pdf">
+              Questions for Computer (Portuguese)
+            </a>
+          </li>
         </ul>
       </div>
     </content>
@@ -152,22 +169,30 @@ const Content = () => (
         <h3>Further inspiration</h3>
         <ul style={{ color: COLORS.gray, textAlign: "left" }}>
           <li>
-            <a href="https://www.teachermagazine.com.au/articles/ai-classroom-activity-facial-recognition"
-               rel="noopener"
-               target="_blank">Facial Recognition (external link)</a>
-          </li>
-          <li>
-            <a href="https://teachinglondoncomputing.org/resources/inspiring-unplugged-classroom-activities/the-brain-in-a-bag-activity/"
-               rel="noopener"
-               target="_blank">
-                  Brain-in-a-Bag (external link)
+            <a
+              href="https://www.teachermagazine.com.au/articles/ai-classroom-activity-facial-recognition"
+              rel="noopener"
+              target="_blank"
+            >
+              Facial Recognition (external link)
             </a>
           </li>
           <li>
-            <a href="https://computingeducation.de/proj-snaip-B/"
-               rel="noopener"
-               target="_blank">
-                 Unsupervised Learning (external link, German)
+            <a
+              href="https://teachinglondoncomputing.org/resources/inspiring-unplugged-classroom-activities/the-brain-in-a-bag-activity/"
+              rel="noopener"
+              target="_blank"
+            >
+              Brain-in-a-Bag (external link)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://computingeducation.de/proj-snaip-B/"
+              rel="noopener"
+              target="_blank"
+            >
+              Unsupervised Learning (external link, German)
             </a>
           </li>
         </ul>
@@ -193,8 +218,18 @@ const Content = () => (
         marginTop: "2em",
       }}
     >
+      <i>Portuguese translation: Ricardo Sousa</i>
+    </p>
+    <p
+      style={{
+        color: COLORS.gray,
+        textAlign: "center",
+        marginTop: "2em",
+      }}
+    >
       <i>
-         If you are interested in translating the brochure into your language, just email us at hi(at)aiunplugged.org. 
+        If you are interested in translating the brochure into your language,
+        just email us at hi(at)aiunplugged.org.
       </i>
     </p>
   </div>
