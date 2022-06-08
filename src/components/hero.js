@@ -29,15 +29,12 @@ const Header = ({ siteTitle }) => (
       <h1 style={{ textAlign: "center" }}>AI Unplugged</h1>
       <p style={{ textAlign: "center" }}>
         Activities and teaching material on artificial intelligence. Download
-        the brochure in German, English or Korean.
+        the brochure in German, English, Korean, or Portuguese (BR).
       </p>
       <div style={{ textAlign: "center" }}>
         <button
           style={{ margin: "1em" }}
-          onClick={() =>
-            (window.location.href =
-              "german.pdf")
-          }
+          onClick={() => (window.location.href = "german.pdf")}
         >
           German
         </button>
@@ -52,6 +49,12 @@ const Header = ({ siteTitle }) => (
           onClick={() => (window.location.href = "korean.pdf")}
         >
           Korean
+        </button>
+        <button
+          style={{ margin: "1em" }}
+          onClick={() => (window.location.href = "portuguese.pdf")}
+        >
+          Portuguese
         </button>
       </div>
       <div style={{ margin: 60, position: "relative" }}>
