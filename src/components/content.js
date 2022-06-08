@@ -27,6 +27,9 @@ const Content = () => (
             <a href="activity1.pptx">Monkey cards (presentation)</a>
           </li>
           <li>
+            <a href="activity1_english.pptx">Monkey cards (presentation, English)</a>
+          </li>
+          <li>
             <a href="activity1_cow_horse.pdf">
               Alternative face cards (cow + horse)
             </a>
@@ -79,6 +82,9 @@ const Content = () => (
           </li>
           <li>
             <a href="activity3-portuguese.pdf">Computer rules (Portuguese)</a>
+          </li>
+          <li>
+            <a href="activity3_FlowchartDE.pdf">Flowchart (German)</a>
           </li>
           <li>
             <a href="https://www.stefanseegerer.de/schlag-das-krokodil/">
