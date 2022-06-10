@@ -37,7 +37,7 @@ const Content = () => (
               Alternative face cards (cow + horse)
             </a>
             Thanks to Aman Yadav and CT4EDU for 
-            providing an alternative version for the 
+            providing an alternative version to the 
             monkey cards!
           </li>
         </ul>
