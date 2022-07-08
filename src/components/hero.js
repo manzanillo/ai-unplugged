@@ -56,6 +56,12 @@ const Header = ({ siteTitle }) => (
         >
           Portuguese
         </button>
+        <button
+          style={{ margin: "1em" }}
+          onClick={() => (window.location.href = "espanol.pdf")}
+        >
+          Spanish
+        </button>
       </div>
       <div style={{ margin: 60, position: "relative" }}>
         <img src={mainImage} alt="Some content" />
