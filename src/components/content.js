@@ -33,11 +33,14 @@ const Content = () => (
             <a href="activity1_portuguese.pptx">Monkey cards (presentation, Portuguese)</a>
           </li>
           <li>
+            <a href="activit1_spanish.pptx">Monkey cards (presentation, Spanish)</a>
+          </li>
+          <li>
             <a href="activity1_cow_horse.pdf">
               Alternative face cards (cow + horse)
             </a>
             Thanks to Aman Yadav and CT4EDU for 
-            providing an alternative version for the 
+            providing an alternative version to the 
             monkey cards!
           </li>
         </ul>
@@ -86,6 +89,9 @@ const Content = () => (
           </li>
           <li>
             <a href="activity3-portuguese.pdf">Computer rules (Portuguese)</a>
+          </li>
+          <li>
+            <a href="activity3-spanish.pdf">Computer rules (Spanish)</a>
           </li>
           <li>
             <a href="activity3_FlowchartDE.pdf">Flowchart (German)</a>
@@ -162,6 +168,11 @@ const Content = () => (
           <li>
             <a href="activity5-portuguese.pdf">
               Questions for Computer (Portuguese)
+            </a>
+          </li>
+        <li>
+            <a href="activity5-spanish.pdf">
+              Questions for Computer (Spanish)
             </a>
           </li>
         </ul>
