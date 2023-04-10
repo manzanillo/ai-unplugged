@@ -137,6 +137,9 @@ const Content = () => (
             <a href="activity3.pdf">Board game</a>
           </li>
           <li>
+              <a href="https://www.stefanseegerer.de/schlag-die-roboter-classic/">Online version </a>
+          </li>
+          <li>
             <a href="activity4-german.pdf">Computer rules (German)</a>
           </li>
           <li>
