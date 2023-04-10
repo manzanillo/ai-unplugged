@@ -9,8 +9,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-      - name: Alias python to python3
-        run: alias python=python3
+      - name: Set up Python 2.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: '2.x'
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
