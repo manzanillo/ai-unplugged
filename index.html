@@ -2901,9 +2901,13 @@
                 <h1 style="text-align:center">AI Unplugged</h1>
                 <p style="text-align:center">Activities and teaching material on artificial intelligence. Download the
                   brochure in German, English, Korean, Spanish, or Portuguese (BR).</p>
-                <div style="text-align:center"><button style="margin:1em">German</button><button
-                    style="margin:1em">English</button><button style="margin:1em">Korean</button><button
-                    style="margin:1em">Portuguese</button><button style="margin:1em">Spanish</button></div>
+                <div style="text-align:center"><button onclick="openLoc('german.pdf')"
+                    style="margin:1em">German</button><button onclick="openLoc('english.pdf')"
+                    style="margin:1em">English</button>
+                  <button onclick="openLoc('korean.pdf')" style="margin:1em">Korean</button><button
+                    onclick="openLoc('portugues.pdf')" style="margin:1em">Portuguese</button><button
+                    onclick="openLoc('espanol.pdf')" style="margin:1em">Spanish</button>
+                </div>
                 <div style="margin:60px;position:relative"><img src="/static/main-7240938ea9bbba153cda6ba82dffd8e6.jpg"
                     alt="Some content" /></div>
               </div>
@@ -3047,6 +3051,13 @@
   <script src="/styles-c2fe8482057191dca484.js" async=""></script>
   <script src="/app-e5d903b08050d4ce5197.js" async=""></script>
   <script src="/webpack-runtime-20f398a32eff7d7d5172.js" async=""></script>
+
+  <script>
+
+    const openLoc = (relativePath) => {
+      window.location.href = window.location.origin + "/" + relativePath; // redirect the user to the specified relative path on the current domain
+    }
+  </script>
 </body>
 
 </html>
