@@ -254,6 +254,15 @@ const Content = () => (
         marginTop: "2em",
       }}
     >
+      <i>Swedish translation: Jay Almasi</i>
+    </p>
+    <p
+      style={{
+        color: COLORS.gray,
+        textAlign: "center",
+        marginTop: "2em",
+      }}
+    >
       <i>
         If you are interested in translating the brochure into your language,
         just email us at hi(at)aiunplugged.org.
