@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
       <h1 style={{ textAlign: "center" }}>AI Unplugged</h1>
       <p style={{ textAlign: "center" }}>
         Activities and teaching material on artificial intelligence. Download
-        the brochure in German, English, Korean, or Portuguese (BR).
+        the brochure in German, English, Korean, Swedish, or Portuguese (BR).
       </p>
       <div style={{ textAlign: "center" }}>
         <button
