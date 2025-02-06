@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkai_unplugged=self.webpackChunkai_unplugged||[]).push([[125],{3331:function(e,n,t){t.r(n);var l=t(6540),u=t(4815),a=t(2269);n.default=()=>l.createElement(u.A,null,l.createElement(a.A,{title:"404: Not found"}),l.createElement("h1",null,"Page not Found :("),l.createElement("p",null,"Try another page."))}}]);
+//# sourceMappingURL=component---src-pages-404-js-27c300142df899eb1795.js.map
