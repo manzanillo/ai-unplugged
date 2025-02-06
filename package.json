@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-paper-css-landing-page",
+  "name": "ai-unplugged",
   "private": true,
-  "description": "A landing page using Gatsby and PaperCSS",
+  "description": "AI unplguged website based on landing page template using Gatsby and PaperCSS",
   "version": "0.1.0",
   "author": "Stefan Seegerer (manzanillo)",
   "dependencies": {
