@@ -33,12 +33,15 @@ const Content = () => (
             <a href="activity1_portuguese.pptx">Monkey cards (presentation, Portuguese)</a>
           </li>
           <li>
-            <a href="activit1_spanish.pptx">Monkey cards (presentation, Spanish)</a>
+            <a href="activity1_spanish.pptx">Monkey cards (presentation, Spanish)</a>
+          </li>
+          <li>
+            <a href="activity1_francais.pptx">Monkey cards (presentation, French)</a>
           </li>
           <li>
             <a href="activity1_cow_horse.pdf">
               Alternative face cards (cow + horse)
-            </a>
+            </a> 
             Thanks to Aman Yadav and CT4EDU for 
             providing an alternative version to the 
             monkey cards!
@@ -94,6 +97,9 @@ const Content = () => (
             <a href="activity3-spanish.pdf">Computer rules (Spanish)</a>
           </li>
           <li>
+            <a href="activity3-francais.pdf">Computer rules (French)</a>
+          </li>
+          <li>
             <a href="activity3_FlowchartDE.pdf">Flowchart (German)</a>
           </li>
           <li>
@@ -143,6 +149,12 @@ const Content = () => (
           <li>
             <a href="activity4-portuguese.pdf">Computer rules (Portuguese)</a>
           </li>
+          <li>
+            <a href="activity4-spanish.pdf">Computer rules (Spanish)</a>
+          </li>
+          <li>
+            <a href="activity4-francais.pdf">Computer rules (French)</a>
+          </li>
         </ul>
       </div>
     </content>
@@ -166,15 +178,17 @@ const Content = () => (
             </a>
           </li>
           <li>
-            <a href="activity5-portuguese.pdf">
-              Questions for Computer (Portuguese)
+            <a href="activity5-portuguese.pdf">Questions for Computer (Portuguese)
             </a>
           </li>
-        <li>
-            <a href="activity5-spanish.pdf">
-              Questions for Computer (Spanish)
+          <li>
+            <a href="activity5-spanish.pdf">Questions for Computer (Spanish)
             </a>
           </li>
+          <li>
+            <a href="activity5-francais.pdf">Questions for Computer (French)
+            </a>
+          </li>      
         </ul>
       </div>
     </content>
@@ -240,6 +254,15 @@ const Content = () => (
       }}
     >
       <i>Portuguese translation: Ricardo Sousa</i>
+    </p>
+    <p
+      style={{
+        color: COLORS.gray,
+        textAlign: "center",
+        marginTop: "2em",
+      }}
+    >
+      <i>French translation: Stéphane Morandeau</i>
     </p>
     <p
       style={{
