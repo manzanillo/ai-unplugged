@@ -27,13 +27,11 @@ const Content = () => (
             <a href="activity1.pptx">Monkey cards (presentation, German)</a>
           </li>
           <li>
-            <a href="activity1_english.pptx">
-              Monkey cards (presentation, English)
+            <a href="activity1_english.pptx">Monkey cards (presentation, English)
             </a>
           </li>
           <li>
-            <a href="activity1_portuguese.pptx">
-              Monkey cards (presentation, Portuguese)
+            <a href="activity1_portuguese.pptx">Monkey cards (presentation, Portuguese)
             </a>
           </li>
           <li>

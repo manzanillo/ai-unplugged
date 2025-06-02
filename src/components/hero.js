@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => (
       <h1 style={{ textAlign: "center" }}>AI Unplugged</h1>
       <p style={{ textAlign: "center" }}>
         Activities and teaching material on artificial intelligence. Download
-        the brochure in German, English, Korean, Swedish, or Portuguese (BR).
+        the brochure in German, English, French, Korean, Swedish, or Portuguese (BR).
       </p>
       <div style={{ textAlign: "center" }}>
         <button
@@ -67,6 +67,12 @@ const Header = ({ siteTitle }) => (
           onClick={() => (window.location.href = "swedish.pdf")}
         >
           Swedish
+        </button>
+        <button
+          style={{ margin: "1em" }}
+          onClick={() => (window.location.href = "francais.pdf")}
+        >
+          French
         </button>
       </div>
       <div style={{ margin: 60, position: "relative" }}>
