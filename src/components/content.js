@@ -27,10 +27,14 @@ const Content = () => (
             <a href="activity1.pptx">Monkey cards (presentation, German)</a>
           </li>
           <li>
-            <a href="activity1_english.pptx">Monkey cards (presentation, English)</a>
+            <a href="activity1_english.pptx">
+              Monkey cards (presentation, English)
+            </a>
           </li>
           <li>
-            <a href="activity1_portuguese.pptx">Monkey cards (presentation, Portuguese)</a>
+            <a href="activity1_portuguese.pptx">
+              Monkey cards (presentation, Portuguese)
+            </a>
           </li>
           <li>
             <a href="activity1_spanish.pptx">Monkey cards (presentation, Spanish)</a>
@@ -136,6 +140,9 @@ const Content = () => (
         <ul style={{ color: COLORS.gray, textAlign: "left" }}>
           <li>
             <a href="activity3.pdf">Board game</a>
+          </li>
+          <li>
+              <a href="https://www.stefanseegerer.de/schlag-die-roboter-classic/">Online version </a>
           </li>
           <li>
             <a href="activity4-german.pdf">Computer rules (German)</a>
@@ -262,7 +269,16 @@ const Content = () => (
         marginTop: "2em",
       }}
     >
-      <i>French translation: Stéphane Morandeau</i>
+      <i>Swedish translation: Jay Almasi</i>
+    </p>
+    <p
+      style={{
+        color: COLORS.gray,
+        textAlign: "center",
+        marginTop: "2em",
+      }}
+    >
+      <i>French translation: St&eacute;phane Morandeau</i>
     </p>
     <p
       style={{
