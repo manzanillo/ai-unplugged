@@ -27,6 +27,9 @@ const Content = () => (
             <a href="activity1.pptx">Monkey cards (presentation, German)</a>
           </li>
           <li>
+            <a href="activity1-Merkmalsueberblick.pdf">Overview of monkey features (German)</a>
+          </li>
+          <li>
             <a href="activity1_english.pptx">Monkey cards (presentation, English)
             </a>
           </li>
