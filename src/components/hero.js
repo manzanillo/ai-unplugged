@@ -78,7 +78,7 @@ const Header = ({ siteTitle }) => (
           style={{ margin: "1em" }}
           onClick={() => (window.location.href = "indonesian.pdf")}
         >
-          French
+          Indonesian
         </button>
       </div>
       <div style={{ margin: 60, position: "relative" }}>
