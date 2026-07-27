@@ -80,9 +80,15 @@ const Header = ({ siteTitle }) => (
         >
           Indonesian
         </button>
+                <button
+          style={{ margin: "1em" }}
+          onClick={() => (window.location.href = "chinese.pdf")}
+        >
+          Chinese
+        </button>
       </div>
       <div style={{ margin: 60, position: "relative" }}>
-        <img src={mainImage} alt="Some content" />
+        <img src={mainImage} alt="Activity 1 - Example use" />
       </div>
     </Paper>
   </div>

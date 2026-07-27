@@ -288,6 +288,16 @@ const Content = () => (
         marginTop: "2em",
       }}
     >
+      <i>Chinese translation: Zhang Xilian (张喜连)</i>
+    </p>
+    
+    <p
+      style={{
+        color: COLORS.gray,
+        textAlign: "center",
+        marginTop: "2em",
+      }}
+    >
       <i>
         If you are interested in translating the brochure into your language,
         just email us at hi(at)aiunplugged.org.
