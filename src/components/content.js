@@ -43,6 +43,9 @@ const Content = () => (
           <li>
             <a href="activity1_francais.pptx">Monkey cards (presentation, French)</a>
           </li>
+           <li>
+            <a href="activity1_indonesian.pptx">Monkey cards (presentation, Indonesian)</a>
+          </li>
           <li>
             <a href="activity1_cow_horse.pdf">
               Alternative face cards (cow + horse)
@@ -105,6 +108,9 @@ const Content = () => (
             <a href="activity3-francais.pdf">Computer rules (French)</a>
           </li>
           <li>
+            <a href="activity3-indonesian.pdf">Computer rules (Indonesian)</a>
+          </li>
+          <li>
             <a href="activity3_FlowchartDE.pdf">Flowchart (German)</a>
           </li>
           <li>
@@ -163,6 +169,9 @@ const Content = () => (
           <li>
             <a href="activity4-francais.pdf">Computer rules (French)</a>
           </li>
+          <li>
+            <a href="activity4-indonesian.pdf">Computer rules (Indonesian)</a>
+          </li>
         </ul>
       </div>
     </content>
@@ -196,7 +205,11 @@ const Content = () => (
           <li>
             <a href="activity5-francais.pdf">Questions for Computer (French)
             </a>
-          </li>      
+          </li>   
+          <li>
+            <a href="activity5-indonesian.pdf">Questions for Computer (Indonesian)
+            </a>
+          </li>     
         </ul>
       </div>
     </content>
