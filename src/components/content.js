@@ -303,6 +303,13 @@ const Content = () => (
     >
       <i>Indonesian translation: Muhamad Afif Effindi, Ana Tsalitsatun Ni’mah, Evy Maya Stefany, Moch. Rivaldi Septian Wibawa, Saffana Assani’, Taufiqur Rohman</i>
     </p>
+    <p
+      style={{
+        color: COLORS.gray,
+        textAlign: "center",
+        marginTop: "2em",
+      }}
+    >
       <i>Chinese translation: Zhang Xilian (张喜连)</i>
     </p>
     
